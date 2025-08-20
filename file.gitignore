@@ -1,0 +1,23 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore LabVIEW compiled stuff
+*.aliases
+*.lvlps
+*.lvbitx
+
+# Ignore large AI model files
+*.h5
+*.pkl
+*.onnx
+*.joblib
+
+# Ignore large generated datasets
+*.csv
+*.db
+*.xlsx
+
+# Ignore OS-specific stuff
+.DS_Store
+Thumbs.db
